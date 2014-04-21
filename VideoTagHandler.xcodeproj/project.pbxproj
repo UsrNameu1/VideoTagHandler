@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F762D6451904F71600616684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6441904F71600616684 /* Foundation.framework */; };
+		F762D6471904F71600616684 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6461904F71600616684 /* CoreGraphics.framework */; };
+		F762D6491904F71600616684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6481904F71600616684 /* UIKit.framework */; };
+		F762D64F1904F71600616684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F762D64D1904F71600616684 /* InfoPlist.strings */; };
+		F762D6511904F71600616684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F762D6501904F71600616684 /* main.m */; };
+		F762D6551904F71600616684 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F762D6541904F71600616684 /* MYAppDelegate.m */; };
+		F762D6581904F71600616684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F762D6561904F71600616684 /* Main.storyboard */; };
+		F762D65B1904F71600616684 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F762D65A1904F71600616684 /* MYViewController.m */; };
+		F762D65D1904F71600616684 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F762D65C1904F71600616684 /* Images.xcassets */; };
+		F762D6641904F71600616684 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6631904F71600616684 /* XCTest.framework */; };
+		F762D6651904F71600616684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6441904F71600616684 /* Foundation.framework */; };
+		F762D6661904F71600616684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6481904F71600616684 /* UIKit.framework */; };
+		F762D66E1904F71600616684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F762D66C1904F71600616684 /* InfoPlist.strings */; };
+		F762D6701904F71600616684 /* VideoTagHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F762D66F1904F71600616684 /* VideoTagHandlerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F762D6671904F71600616684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F762D6391904F71600616684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F762D6401904F71600616684;
+			remoteInfo = VideoTagHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F762D6411904F71600616684 /* VideoTagHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTagHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F762D6441904F71600616684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F762D6461904F71600616684 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F762D6481904F71600616684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F762D64C1904F71600616684 /* VideoTagHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoTagHandler-Info.plist"; sourceTree = "<group>"; };
+		F762D64E1904F71600616684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F762D6501904F71600616684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F762D6521904F71600616684 /* VideoTagHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoTagHandler-Prefix.pch"; sourceTree = "<group>"; };
+		F762D6531904F71600616684 /* MYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
+		F762D6541904F71600616684 /* MYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
+		F762D6571904F71600616684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F762D6591904F71600616684 /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		F762D65A1904F71600616684 /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		F762D65C1904F71600616684 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F762D6621904F71600616684 /* VideoTagHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTagHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F762D6631904F71600616684 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F762D66B1904F71600616684 /* VideoTagHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoTagHandlerTests-Info.plist"; sourceTree = "<group>"; };
+		F762D66D1904F71600616684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F762D66F1904F71600616684 /* VideoTagHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTagHandlerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F762D63E1904F71600616684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F762D6471904F71600616684 /* CoreGraphics.framework in Frameworks */,
+				F762D6491904F71600616684 /* UIKit.framework in Frameworks */,
+				F762D6451904F71600616684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F762D65F1904F71600616684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F762D6641904F71600616684 /* XCTest.framework in Frameworks */,
+				F762D6661904F71600616684 /* UIKit.framework in Frameworks */,
+				F762D6651904F71600616684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F762D6381904F71600616684 = {
+			isa = PBXGroup;
+			children = (
+				F762D64A1904F71600616684 /* VideoTagHandler */,
+				F762D6691904F71600616684 /* VideoTagHandlerTests */,
+				F762D6431904F71600616684 /* Frameworks */,
+				F762D6421904F71600616684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F762D6421904F71600616684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F762D6411904F71600616684 /* VideoTagHandler.app */,
+				F762D6621904F71600616684 /* VideoTagHandlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F762D6431904F71600616684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F762D6441904F71600616684 /* Foundation.framework */,
+				F762D6461904F71600616684 /* CoreGraphics.framework */,
+				F762D6481904F71600616684 /* UIKit.framework */,
+				F762D6631904F71600616684 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F762D64A1904F71600616684 /* VideoTagHandler */ = {
+			isa = PBXGroup;
+			children = (
+				F762D6531904F71600616684 /* MYAppDelegate.h */,
+				F762D6541904F71600616684 /* MYAppDelegate.m */,
+				F762D6561904F71600616684 /* Main.storyboard */,
+				F762D6591904F71600616684 /* MYViewController.h */,
+				F762D65A1904F71600616684 /* MYViewController.m */,
+				F762D65C1904F71600616684 /* Images.xcassets */,
+				F762D64B1904F71600616684 /* Supporting Files */,
+			);
+			path = VideoTagHandler;
+			sourceTree = "<group>";
+		};
+		F762D64B1904F71600616684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F762D64C1904F71600616684 /* VideoTagHandler-Info.plist */,
+				F762D64D1904F71600616684 /* InfoPlist.strings */,
+				F762D6501904F71600616684 /* main.m */,
+				F762D6521904F71600616684 /* VideoTagHandler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F762D6691904F71600616684 /* VideoTagHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F762D66F1904F71600616684 /* VideoTagHandlerTests.m */,
+				F762D66A1904F71600616684 /* Supporting Files */,
+			);
+			path = VideoTagHandlerTests;
+			sourceTree = "<group>";
+		};
+		F762D66A1904F71600616684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F762D66B1904F71600616684 /* VideoTagHandlerTests-Info.plist */,
+				F762D66C1904F71600616684 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F762D6401904F71600616684 /* VideoTagHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F762D6731904F71600616684 /* Build configuration list for PBXNativeTarget "VideoTagHandler" */;
+			buildPhases = (
+				F762D63D1904F71600616684 /* Sources */,
+				F762D63E1904F71600616684 /* Frameworks */,
+				F762D63F1904F71600616684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTagHandler;
+			productName = VideoTagHandler;
+			productReference = F762D6411904F71600616684 /* VideoTagHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F762D6611904F71600616684 /* VideoTagHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F762D6761904F71600616684 /* Build configuration list for PBXNativeTarget "VideoTagHandlerTests" */;
+			buildPhases = (
+				F762D65E1904F71600616684 /* Sources */,
+				F762D65F1904F71600616684 /* Frameworks */,
+				F762D6601904F71600616684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F762D6681904F71600616684 /* PBXTargetDependency */,
+			);
+			name = VideoTagHandlerTests;
+			productName = VideoTagHandlerTests;
+			productReference = F762D6621904F71600616684 /* VideoTagHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F762D6391904F71600616684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = adachi.yuichi;
+				TargetAttributes = {
+					F762D6611904F71600616684 = {
+						TestTargetID = F762D6401904F71600616684;
+					};
+				};
+			};
+			buildConfigurationList = F762D63C1904F71600616684 /* Build configuration list for PBXProject "VideoTagHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F762D6381904F71600616684;
+			productRefGroup = F762D6421904F71600616684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F762D6401904F71600616684 /* VideoTagHandler */,
+				F762D6611904F71600616684 /* VideoTagHandlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F762D63F1904F71600616684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F762D65D1904F71600616684 /* Images.xcassets in Resources */,
+				F762D64F1904F71600616684 /* InfoPlist.strings in Resources */,
+				F762D6581904F71600616684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F762D6601904F71600616684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F762D66E1904F71600616684 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F762D63D1904F71600616684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F762D65B1904F71600616684 /* MYViewController.m in Sources */,
+				F762D6551904F71600616684 /* MYAppDelegate.m in Sources */,
+				F762D6511904F71600616684 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F762D65E1904F71600616684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F762D6701904F71600616684 /* VideoTagHandlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F762D6681904F71600616684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F762D6401904F71600616684 /* VideoTagHandler */;
+			targetProxy = F762D6671904F71600616684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F762D64D1904F71600616684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F762D64E1904F71600616684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F762D6561904F71600616684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F762D6571904F71600616684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F762D66C1904F71600616684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F762D66D1904F71600616684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F762D6711904F71600616684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F762D6721904F71600616684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F762D6741904F71600616684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoTagHandler/VideoTagHandler-Prefix.pch";
+				INFOPLIST_FILE = "VideoTagHandler/VideoTagHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F762D6751904F71600616684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoTagHandler/VideoTagHandler-Prefix.pch";
+				INFOPLIST_FILE = "VideoTagHandler/VideoTagHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F762D6771904F71600616684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoTagHandler.app/VideoTagHandler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoTagHandler/VideoTagHandler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VideoTagHandlerTests/VideoTagHandlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F762D6781904F71600616684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoTagHandler.app/VideoTagHandler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoTagHandler/VideoTagHandler-Prefix.pch";
+				INFOPLIST_FILE = "VideoTagHandlerTests/VideoTagHandlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F762D63C1904F71600616684 /* Build configuration list for PBXProject "VideoTagHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F762D6711904F71600616684 /* Debug */,
+				F762D6721904F71600616684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F762D6731904F71600616684 /* Build configuration list for PBXNativeTarget "VideoTagHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F762D6741904F71600616684 /* Debug */,
+				F762D6751904F71600616684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F762D6761904F71600616684 /* Build configuration list for PBXNativeTarget "VideoTagHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F762D6771904F71600616684 /* Debug */,
+				F762D6781904F71600616684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F762D6391904F71600616684 /* Project object */;
+}
