@@ -26,7 +26,6 @@
 		F762D687190502ED00616684 /* video.css in Resources */ = {isa = PBXBuildFile; fileRef = F762D686190502ED00616684 /* video.css */; };
 		F762D68B19050A7400616684 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F762D68A19050A7400616684 /* sample.mp4 */; };
 		F762D68C19050BD900616684 /* videoplayendhandler.js in Resources */ = {isa = PBXBuildFile; fileRef = F762D67A1904F85C00616684 /* videoplayendhandler.js */; };
-		F762D68E19050C8300616684 /* videofullscreenhandler.js in Sources */ = {isa = PBXBuildFile; fileRef = F762D68D19050C8300616684 /* videofullscreenhandler.js */; };
 		F762D68F190511A800616684 /* videofullscreenhandler.js in Resources */ = {isa = PBXBuildFile; fileRef = F762D68D19050C8300616684 /* videofullscreenhandler.js */; };
 /* End PBXBuildFile section */
 
@@ -286,7 +285,6 @@
 			files = (
 				F762D6811904F94400616684 /* NSBundle+MyStrings.m in Sources */,
 				F762D65B1904F71600616684 /* MYViewController.m in Sources */,
-				F762D68E19050C8300616684 /* videofullscreenhandler.js in Sources */,
 				F762D6551904F71600616684 /* MYAppDelegate.m in Sources */,
 				F762D6511904F71600616684 /* main.m in Sources */,
 			);
@@ -493,6 +491,7 @@
 				F762D6751904F71600616684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F762D6761904F71600616684 /* Build configuration list for PBXNativeTarget "VideoTagHandlerTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +500,7 @@
 				F762D6781904F71600616684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,15 +11,15 @@
     var videos = document.getElementsByTagName('video');
  
     for (var i = 0; i < videos.length; i++) {
-        videos[i].addEventListener('webkitbeginfullscreen', onPlay, false);
-        videos[i].addEventListener('webkitendfullscreen', onEnded, false);
+        videos[i].addEventListener('webkitbeginfullscreen', onBeginFullScreen, false);
+        videos[i].addEventListener('webkitendfullscreen', onEndFullScreen, false);
     }
  
-    function onPlay() {
+    function onBeginFullScreen() {
         window.location = scheme + 'video-beginfullscreen';
     }
  
-    function onEnded() {
+    function onEndFullScreen() {
         window.location = scheme + 'video-endfullscreen';
     }
 })();
