@@ -21,6 +21,13 @@
 		F762D6661904F71600616684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F762D6481904F71600616684 /* UIKit.framework */; };
 		F762D66E1904F71600616684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F762D66C1904F71600616684 /* InfoPlist.strings */; };
 		F762D6701904F71600616684 /* VideoTagHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F762D66F1904F71600616684 /* VideoTagHandlerTests.m */; };
+		F762D6811904F94400616684 /* NSBundle+MyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = F762D6801904F94400616684 /* NSBundle+MyStrings.m */; };
+		F762D6831904FB1A00616684 /* video.html in Resources */ = {isa = PBXBuildFile; fileRef = F762D6821904FB1A00616684 /* video.html */; };
+		F762D687190502ED00616684 /* video.css in Resources */ = {isa = PBXBuildFile; fileRef = F762D686190502ED00616684 /* video.css */; };
+		F762D68B19050A7400616684 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F762D68A19050A7400616684 /* sample.mp4 */; };
+		F762D68C19050BD900616684 /* videoplayendhandler.js in Resources */ = {isa = PBXBuildFile; fileRef = F762D67A1904F85C00616684 /* videoplayendhandler.js */; };
+		F762D68E19050C8300616684 /* videofullscreenhandler.js in Sources */ = {isa = PBXBuildFile; fileRef = F762D68D19050C8300616684 /* videofullscreenhandler.js */; };
+		F762D68F190511A800616684 /* videofullscreenhandler.js in Resources */ = {isa = PBXBuildFile; fileRef = F762D68D19050C8300616684 /* videofullscreenhandler.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		F762D66B1904F71600616684 /* VideoTagHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoTagHandlerTests-Info.plist"; sourceTree = "<group>"; };
 		F762D66D1904F71600616684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F762D66F1904F71600616684 /* VideoTagHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTagHandlerTests.m; sourceTree = "<group>"; };
+		F762D67A1904F85C00616684 /* videoplayendhandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = videoplayendhandler.js; sourceTree = "<group>"; };
+		F762D67F1904F94400616684 /* NSBundle+MyStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MyStrings.h"; sourceTree = "<group>"; };
+		F762D6801904F94400616684 /* NSBundle+MyStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MyStrings.m"; sourceTree = "<group>"; };
+		F762D6821904FB1A00616684 /* video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = video.html; sourceTree = "<group>"; };
+		F762D686190502ED00616684 /* video.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = video.css; sourceTree = "<group>"; };
+		F762D68A19050A7400616684 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		F762D68D19050C8300616684 /* videofullscreenhandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = videofullscreenhandler.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +132,10 @@
 				F762D6591904F71600616684 /* MYViewController.h */,
 				F762D65A1904F71600616684 /* MYViewController.m */,
 				F762D65C1904F71600616684 /* Images.xcassets */,
+				F762D6791904F83800616684 /* Resources */,
 				F762D64B1904F71600616684 /* Supporting Files */,
+				F762D67F1904F94400616684 /* NSBundle+MyStrings.h */,
+				F762D6801904F94400616684 /* NSBundle+MyStrings.m */,
 			);
 			path = VideoTagHandler;
 			sourceTree = "<group>";
@@ -150,6 +167,18 @@
 				F762D66C1904F71600616684 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F762D6791904F83800616684 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F762D68A19050A7400616684 /* sample.mp4 */,
+				F762D67A1904F85C00616684 /* videoplayendhandler.js */,
+				F762D68D19050C8300616684 /* videofullscreenhandler.js */,
+				F762D6821904FB1A00616684 /* video.html */,
+				F762D686190502ED00616684 /* video.css */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F762D68F190511A800616684 /* videofullscreenhandler.js in Resources */,
+				F762D68C19050BD900616684 /* videoplayendhandler.js in Resources */,
+				F762D6831904FB1A00616684 /* video.html in Resources */,
+				F762D68B19050A7400616684 /* sample.mp4 in Resources */,
+				F762D687190502ED00616684 /* video.css in Resources */,
 				F762D65D1904F71600616684 /* Images.xcassets in Resources */,
 				F762D64F1904F71600616684 /* InfoPlist.strings in Resources */,
 				F762D6581904F71600616684 /* Main.storyboard in Resources */,
@@ -250,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F762D6811904F94400616684 /* NSBundle+MyStrings.m in Sources */,
 				F762D65B1904F71600616684 /* MYViewController.m in Sources */,
+				F762D68E19050C8300616684 /* videofullscreenhandler.js in Sources */,
 				F762D6551904F71600616684 /* MYAppDelegate.m in Sources */,
 				F762D6511904F71600616684 /* main.m in Sources */,
 			);
