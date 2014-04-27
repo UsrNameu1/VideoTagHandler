@@ -23,9 +23,7 @@
                                   encoding:NSUTF8StringEncoding
                                      error:&error];
         if (error) {
-#if DEBUG
-            NSLog(@"video.htmlの読み込みに失敗しました");
-#endif
+            DebugLog(@"video.htmlの読み込みに失敗しました");
         }
     }
     
@@ -45,9 +43,7 @@
                                   encoding:NSUTF8StringEncoding
                                      error:&error];
         if (error) {
-#if DEBUG
-            NSLog(@"videoplayendhandler.jsの読み込みに失敗しました");
-#endif
+            DebugLog(@"videoplayendhandler.jsの読み込みに失敗しました");
         }
     }
     
@@ -67,9 +63,7 @@
                                   encoding:NSUTF8StringEncoding
                                      error:&error];
         if (error) {
-#if DEBUG
-            NSLog(@"videofullscreenhandler.jsの読み込みに失敗しました");
-#endif
+            DebugLog(@"videofullscreenhandler.jsの読み込みに失敗しました");
         }
     }
     

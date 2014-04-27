@@ -44,7 +44,9 @@ static NSString *const VideoHandlerScheme = @"videohandler";
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
+    //play endイベントのハンドリング
     //NSString *videoHandlerString = [[NSBundle mainBundle] myVideoPlayEndHandlerJavaScriptString];
+    //webkitbeginfullscreen webkitendfullscreenイベントのハンドリング
     NSString *videoHandlerString = [[NSBundle mainBundle] myVideoFullScreenHandlerJavaScriptString];
     
     if (videoHandlerString) {
@@ -55,9 +57,7 @@ static NSString *const VideoHandlerScheme = @"videohandler";
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     if ([request.URL.scheme isEqualToString:VideoHandlerScheme]) {
-#if DEBUG
-        NSLog(@"%@", request.URL);
-#endif
+        DebugLog(@"%@", request.URL);
         return NO;
     }
     

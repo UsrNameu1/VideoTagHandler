@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14D4B5EA190D463D00B99AC8 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
 		F762D6411904F71600616684 /* VideoTagHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTagHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F762D6441904F71600616684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F762D6461904F71600616684 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,11 +131,12 @@
 				F762D6561904F71600616684 /* Main.storyboard */,
 				F762D6591904F71600616684 /* MYViewController.h */,
 				F762D65A1904F71600616684 /* MYViewController.m */,
+				F762D67F1904F94400616684 /* NSBundle+MyStrings.h */,
+				F762D6801904F94400616684 /* NSBundle+MyStrings.m */,
+				14D4B5EA190D463D00B99AC8 /* DebugLog.h */,
 				F762D65C1904F71600616684 /* Images.xcassets */,
 				F762D6791904F83800616684 /* Resources */,
 				F762D64B1904F71600616684 /* Supporting Files */,
-				F762D67F1904F94400616684 /* NSBundle+MyStrings.h */,
-				F762D6801904F94400616684 /* NSBundle+MyStrings.m */,
 			);
 			path = VideoTagHandler;
 			sourceTree = "<group>";

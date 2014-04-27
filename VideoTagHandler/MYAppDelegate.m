@@ -10,9 +10,21 @@
 
 @implementation MYAppDelegate
 
+#pragma mark - UIApplicationDelegate methods
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    /* Notificationによるフルスクリーンイベントの取得
+    NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
+    [defaultCenter addObserver:self
+     　　　　　　  　　　selector:@selector(didEnterFullScreen:)
+                          name:@"UIMoviePlayerControllerDidEnterFullscreenNotification"
+                        object:nil];
+    [defaultCenter addObserver:self
+                      selector:@selector(didExitFullScreen:)
+                          name:@"UIMoviePlayerControllerDidExitFullscreenNotification"
+                        object:nil];
+    */
     return YES;
 }
 							
@@ -42,5 +54,19 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark - Private methods
+
+/*
+- (void)didEnterFullScreen:(NSNotificationCenter *)center
+{
+    DebugLog(@"enter full screen");
+}
+
+- (void)didExitFullScreen:(NSNotificationCenter *)center
+{
+    DebugLog(@"exit full screen");
+}
+ */
 
 @end
